@@ -11,7 +11,7 @@ const Box = (props) => {
     } else {
         result = props.result;
     } if (props.title === "Computer"){
-        console.log("computer", result);
+        // console.log("computer", result);
     }
     // console.log("props", props);
     return (
