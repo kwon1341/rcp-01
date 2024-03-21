@@ -51,11 +51,14 @@ export default class AppClass extends Component {
         // if user == rock, computer == "paper" user lose
         // rock, scissors, paper 각각 경우의 수 생각하기
 
-        if(user.name === computer.name){
-            return "tie"
-        }else if (user.name === "Rock") return computer.name === "Scissors" ? "win" : "lose"
-        else if (user.name === "Scissors") return computer.name === "Paper" ? "win" : "lose"
-        else if (user.name === "Paper") return computer === "Rock" ? "win" : "lose"
+        if (user.name === computer.name) {
+            return "tie";
+        } else if (user.name === "Rock")
+            return computer.name === "Scissors" ? "win" : "lose";
+        else if (user.name === "Scissors")
+            return computer.name === "Paper" ? "win" : "lose";
+        else if (user.name === "Paper")
+            return computer.name === "Rock" ? "win" : "lose";
     };
 
     randomChoice=()=>{
