@@ -15,7 +15,7 @@ class BoxClass extends Component {
         } else {
             this.result = this.props.result;
         } if (this.props.title === "Computer"){
-            console.log("computer", this.result);
+            // console.log("computer", this.result);
         }
     }
     render() {
