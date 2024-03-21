@@ -13,3 +13,15 @@
     padding: 10px 10px;
     gap: 10px;
 }
+.win {
+    border: 10px solid green;
+    color: green;
+}
+.lose {
+    border: 10px solid red;
+    color: red;
+}
+.tie {
+    border: 10px solid black;
+    color: black;
+}
